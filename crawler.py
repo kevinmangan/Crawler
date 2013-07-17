@@ -6,7 +6,6 @@ from bs4 import *
 from urlparse import urljoin
 
 script, startpage = argv
-ignorewords = set(['the', 'of', 'to', 'and', 'a', 'in', 'is', 'it'])
 
 class Crawler:
 
